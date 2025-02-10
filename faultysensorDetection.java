@@ -8,16 +8,11 @@ public static void main(String[] args){
  int arr[] = new int[6];
 System.out.println(" enter the array");
  for(int i=0;i<6;i++){
-  
   arr[i] = sc.nextInt();
- 
-
  }
  for(int i=0;i<6;i++){
   System.out.println(" the array is "+arr[i]);
- }
- System.out.println(" to check if the temp reading is correct ");
- 
+ } 
  for( int i=0;i<6;i++){
    if(arr[i]>50){
    System.out.println(" the value of the sensor is incorrect "+i);
