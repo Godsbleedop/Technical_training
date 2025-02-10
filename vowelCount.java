@@ -1,5 +1,3 @@
-// write a programm that takes string as a input and counts the number of vowels and consonants 
-// input hello world 
 import java.util.Scanner;
 
 class Vowels{
@@ -11,12 +9,12 @@ class Vowels{
   int vowel=0;
   int ch;
   int count=0;
-  
+String   word2= word.toLowerCase();
 for(int i=0;i<word.length()-1;i++)
 {
-ch=word.charAt(i);
+ch=word2.charAt(i);
 
-if( ch=='A'|| ch=='a'|| ch=='e'|| ch=='i'|| ch=='I' || ch=='E'|| ch=='o' || ch=='O' || ch=='u' || ch=='U'){
+if(  ch=='a'|| ch=='e'|| ch=='i'||  ch=='o'|| ch=='u' ){
 vowel++;
 }
 else {
@@ -25,5 +23,6 @@ count++;
   
   }
   System.out.println(" the vowels are "+vowel+" the const are "+count);
+System.out.println(word2);
   }
   }
