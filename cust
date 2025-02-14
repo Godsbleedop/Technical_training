@@ -1,0 +1,5 @@
+// bank for customer service 
+//implement a queue where a customer joined the queue 
+// the first customer in line is served 
+// show the next customer to be served
+// display the number of customers waiting 
