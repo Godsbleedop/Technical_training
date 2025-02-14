@@ -1,0 +1,11 @@
+push 
+pop 
+front // get the first element 
+back // get lasst element 
+empty // gives true or flase
+size // gives size 
+types of Queue 
+1* queue
+2* deqeue
+3* prioirty Queue
+4* circular Queue 
